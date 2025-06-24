@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MachineLearning_Model_Deployment</string>
+    <string name="about_app_description">Aplikasi ini dirancang untuk mendemonstrasikan deployment model Machine Learning berbasis Artificial Neural Network (ANN) untuk memprediksi risiko diabetes.</string>
+    <string name="model_architecture_details">- Algoritma: Artificial Neural Network (ANN)&#10;- Arsitektur: Sequential&#10;- Jumlah Lapisan: 3&#10;- Neuron: 16-8-1&#10;- Aktivasi: ReLU dan Sigmoid&#10;- Optimizer: Adam&#10;- Loss: Binary Crossentropy&#10;- Epochs: 50&#10;- Batch Size: 32&#10;- Validation Split: 0.2&#10;- Dataset: Diabetes Classification Dataset</string>
+</resources>

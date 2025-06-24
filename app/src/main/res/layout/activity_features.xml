@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".FeaturesActivity">
+
+    <TextView
+        android:id="@+id/tv_features_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fitur-fitur Aplikasi"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_features_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Aplikasi ini memiliki beberapa fitur utama untuk membantu Anda berinteraksi dengan model prediksi diabetes:"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_features_title" />
+
+    <TextView
+        android:id="@+id/tv_feature1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:text="- Halaman Utama (Home): Navigasi ke fitur-fitur aplikasi."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_features_description" />
+
+    <TextView
+        android:id="@+id/tv_feature2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="- Tentang Aplikasi (About App): Informasi umum tentang tujuan dan teknologi aplikasi."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_feature1" />
+
+    <TextView
+        android:id="@+id/tv_feature3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="- Informasi Dataset (Dataset Info): Detail tentang dataset yang digunakan untuk melatih model, termasuk visualisasi EDA."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_feature2" />
+
+    <TextView
+        android:id="@+id/tv_feature4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="- Arsitektur Model (Model Architecture): Penjelasan mendalam tentang struktur dan detail model Neural Network yang digunakan."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_feature3" />
+
+    <TextView
+        android:id="@+id/tv_feature5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="- Simulasi Prediksi (Prediction Simulation): Antarmuka untuk memasukkan data kesehatan dan mendapatkan prediksi risiko diabetes secara real-time."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_feature4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
